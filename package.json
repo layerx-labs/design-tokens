@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "style-dictionary build"
+  },
   "devDependencies": {
     "style-dictionary": "^3.7.0"
   }
