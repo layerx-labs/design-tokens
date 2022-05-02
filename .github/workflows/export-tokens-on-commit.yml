@@ -1,9 +1,6 @@
 name: Generate tokens on commit
 
-on:
-  push:
-    paths:
-      - '**/**.json'
+on: push
 
 jobs:
   build:
