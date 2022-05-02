@@ -10,7 +10,10 @@ jobs:
         with:
           node-version: '12'
       - name: Install node dependencies
+        working-directory: .
         run: yarn
+      - name: Delete old tokens
+        run: yarn clean
       - name: Build tokens
         run: yarn build
       - name: Commit generated output deliverables
