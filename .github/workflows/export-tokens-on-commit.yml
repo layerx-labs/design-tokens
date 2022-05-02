@@ -15,7 +15,7 @@ jobs:
       - name: Install node dependencies
         run: npm install
       - name: Delete old tokens
-        run: npm run build
+        run: npm run clean
       - name: Build tokens
         run: npm run build
       - name: Commit generated output deliverables
