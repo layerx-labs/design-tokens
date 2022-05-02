@@ -1,11 +1,11 @@
 const StyleDictionaryPackage = require("style-dictionary");
 
-function getStyleDictionaryConfig(product, output) {
+function getStyleDictionaryConfig(product, platform) {
   return {
     source: [
       `tokens/products/${product}/*.json`,
       "tokens/globals/**/*.json",
-      `tokens/outputs/${output}/*.json`,
+      `tokens/platforms/${platform}/*.json`,
     ],
     platforms: {
       css: {
@@ -36,12 +36,12 @@ console.log("Build started...");
 console.log("\n====================");
 
 ["taikai", "bepro", "dappkit"].map(function (product) {
-  ["css", "js"].map(function (output) {
-    console.log(`\n🔥 ${output} tokens → ${product}`);
+  ["css", "js"].map(function (platform) {
+    console.log(`\n🔥 ${platform} tokens → ${product}`);
     const StyleDictionary = StyleDictionaryPackage.extend(
-      getStyleDictionaryConfig(product, output)
+      getStyleDictionaryConfig(product, platform)
     );
-    StyleDictionary.buildPlatform(output);
+    StyleDictionary.buildPlatform(platform);
     console.log("End processing");
   });
 });
