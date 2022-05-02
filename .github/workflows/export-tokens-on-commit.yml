@@ -1,6 +1,9 @@
-name: Generate tokens on commit
+  name: Generate tokens on commit
 
-on: push
+on:
+  push:
+    paths:
+      - tokens/**
 
 jobs:
   build:
