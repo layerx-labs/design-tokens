@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: '12'
       - name: Install node dependencies
-        run: npm install
+        uses: bahmutov/npm-install@v1
       - name: Delete old tokens
         run: npm run clean
       - name: Build tokens
