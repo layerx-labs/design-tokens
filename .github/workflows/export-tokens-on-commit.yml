@@ -13,11 +13,9 @@ jobs:
         with:
           node-version: '12'
       - name: Install node dependencies
-        run: npm install
-      - name: Delete old tokens
-        run: npm run clean
+        uses: bahmutov/npm-install@v1
       - name: Build tokens
-        run: npm run build
+        run: yarn build
       - name: Commit generated output deliverables
         id: "auto-commit-action"
         uses: stefanzweifel/git-auto-commit-action@v4
