@@ -15,11 +15,9 @@ jobs:
       - name: Install node dependencies
         uses: bahmutov/npm-install@v1
       - name: Delete old tokens
-        package-manager: npm
-        run: clean
+        run: yarn clean
       - name: Build tokens
-        package-manager: npm
-        run: build
+        run: yarn build
       - name: Commit generated output deliverables
         id: "auto-commit-action"
         uses: stefanzweifel/git-auto-commit-action@v4
