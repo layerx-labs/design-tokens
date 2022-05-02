@@ -10,9 +10,9 @@ jobs:
         with:
           node-version: '12'
       - name: Install node dependencies
-        uses: bahmutov/npm-install@v1
+        uses: yarn
       - name: Build tokens
-        run: npm run build
+        run: yarn build
       - name: Commit generated output deliverables
         id: "auto-commit-action"
         uses: stefanzweifel/git-auto-commit-action@v4
