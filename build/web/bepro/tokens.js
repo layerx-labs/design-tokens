@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 02 May 2022 21:41:55 GMT
+ * Generated on Mon, 02 May 2022 21:45:36 GMT
  */
 
 export const ColorBrandPrimary = "#3b5998";
