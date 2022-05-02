@@ -10,7 +10,7 @@ jobs:
         with:
           node-version: '12'
       - name: Install node dependencies
-        uses: yarn
+        run: yarn
       - name: Build tokens
         run: yarn build
       - name: Commit generated output deliverables
