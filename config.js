@@ -1,56 +1,50 @@
-module.exports = {
-  source: ["tokens/**/*.json", "blog-boilerplate/*.json"],
-  // If you don't want to call the registerTransform method a bunch of times
-  // you can override the whole transform object directly. This works because
-  // the .extend method copies everything in the config
-  // to itself, allowing you to override things. It's also doing a deep merge
-  // to protect from accidentally overriding nested attributes.
-  transform: {
-    // Now we can use the transform 'myTransform' below
-    myTransform: {
-      type: "name",
-      transformer: (token) => token.path.join("_").toUpperCase(),
+const StyleDictionaryPackage = require("style-dictionary");
+
+function getStyleDictionaryConfig(product, output) {
+  return {
+    source: [
+      `tokens/products/${product}/*.json`,
+      "tokens/globals/**/*.json",
+      `tokens/outputs/${output}/*.json`,
+    ],
+    platforms: {
+      css: {
+        transformGroup: "css",
+        buildPath: `build/web/${product}/`,
+        files: [
+          {
+            destination: "tokens.css",
+            format: "css/variables",
+          },
+        ],
+      },
+      js: {
+        transformGroup: "js",
+        buildPath: `build/web/${product}/`,
+        files: [
+          {
+            destination: "tokens.js",
+            format: "javascript/es6",
+          },
+        ],
+      },
     },
-  },
-  // Same with formats, you can now write them directly to this config
-  // object. The name of the format is the key.
-  format: {
-    myFormat: ({ dictionary, platform }) => {
-      return dictionary.allTokens
-        .map((token) => `${token.name}: ${token.value}`)
-        .join("\n");
-    },
-  },
-  platforms: {
-    css: {
-      transformGroup: "css",
-      buildPath: "build/css/",
-      files: [
-        {
-          format: "css/variables",
-          destination: "variables.css",
-        },
-      ],
-    },
-    scss: {
-      transformGroup: "scss",
-      buildPath: "build/scss/",
-      files: [
-        {
-          format: "scss/variables",
-          destination: "_variables.scss",
-        },
-      ],
-    },
-    js: {
-      transformGroup: "js",
-      buildPath: "build/js/",
-      files: [
-        {
-          format: "javascript/es6",
-          destination: "style-variables.js",
-        },
-      ],
-    },
-  },
-};
+  };
+}
+
+console.log("Build started...");
+console.log("\n====================");
+
+["taikai", "bepro", "dappkit"].map(function (product) {
+  ["css", "js"].map(function (output) {
+    console.log(`\n🔥 ${output} tokens → ${product}`);
+    const StyleDictionary = StyleDictionaryPackage.extend(
+      getStyleDictionaryConfig(product, output)
+    );
+    StyleDictionary.buildPlatform(output);
+    console.log("End processing");
+  });
+});
+
+console.log("\n====================\n");
+console.log("Build completed! 🎉");
