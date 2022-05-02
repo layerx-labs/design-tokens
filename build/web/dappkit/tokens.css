@@ -1,0 +1,34 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 02 May 2022 12:12:29 GMT
+ */
+
+:root {
+  --color-brand-primary: #1da1f2;
+  --color-brand-secondary: #aab8c2;
+  --color-base-black: #000000;
+  --color-base-gray-light: #cccccc;
+  --color-base-gray-medium: #999999;
+  --color-base-gray-dark: #111111;
+  --color-base-red: #ff0000;
+  --color-base-green: #00ff00;
+  --color-primary: #1da1f2;
+  --color-secondary: #aab8c2;
+  --color-action-primary: #1da1f2;
+  --color-action-secondary: #aab8c2;
+  --color-action-tertiary: #999999;
+  --color-font-base: #000000;
+  --color-font-primary: #1da1f2;
+  --color-font-secondary: #aab8c2;
+  --color-font-tertiary: #cccccc;
+  --button-border-radius: 4px;
+  --button-text-size: 1rem;
+  --button-height: 40px;
+  --font-family-headers: Montserrat;
+  --font-family-base: Tahoma, Arial, 'Helvetica Neue', sans;
+  --font-platform-system: Tahoma, Arial, 'Helvetica Neue', sans;
+  --size-font-small: 0.75rem; /* the small size of the font */
+  --size-font-medium: 1rem; /* the medium size of the font */
+  --size-font-large: 2rem; /* the large size of the font */
+  --size-font-base: 1rem; /* the base size of the font */
+}
