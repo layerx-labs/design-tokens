@@ -16,10 +16,10 @@ jobs:
         uses: bahmutov/npm-install@v1
       - name: Delete old tokens
         package-manager: npm
-        command: clean
+        run: clean
       - name: Build tokens
         package-manager: npm
-        command: build
+        run: build
       - name: Commit generated output deliverables
         id: "auto-commit-action"
         uses: stefanzweifel/git-auto-commit-action@v4
