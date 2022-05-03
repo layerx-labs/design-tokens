@@ -2,6 +2,7 @@
   "name": "@taikai/taikai-design-tokens",
   "author": "taikai",
   "version": "0.0.1-beta.6",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/taikai/taikai-design-tokens.git"
@@ -13,11 +14,14 @@
   "devDependencies": {
     "style-dictionary": "^3.7.0"
   },
+  "dependencies": {
+    "np": "^7.6.1"
+  },
   "np": {
     "yarn": false,
     "contents": "build"
   },
-  "dependencies": {
-    "np": "^7.6.1"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
