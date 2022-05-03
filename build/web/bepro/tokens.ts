@@ -1,24 +1,24 @@
 /**
  * Do not edit directly
- * Generated on Tue, 03 May 2022 12:52:45 GMT
+ * Generated on Tue, 03 May 2022 13:29:58 GMT
  */
 
-export const ColorBrandPrimary = "#ea4335";
-export const ColorBrandSecondary = "#34a853";
+export const ColorBrandPrimary = "#3b5998";
+export const ColorBrandSecondary = "#4267b2";
 export const ColorBaseBlack = "#000000";
 export const ColorBaseGrayLight = "#cccccc";
 export const ColorBaseGrayMedium = "#999999";
 export const ColorBaseGrayDark = "#111111";
 export const ColorBaseRed = "#ff0000";
 export const ColorBaseGreen = "#00ff00";
-export const ColorPrimary = "#ea4335";
-export const ColorSecondary = "#34a853";
-export const ColorActionPrimary = "#ea4335";
-export const ColorActionSecondary = "#34a853";
+export const ColorPrimary = "#3b5998";
+export const ColorSecondary = "#4267b2";
+export const ColorActionPrimary = "#3b5998";
+export const ColorActionSecondary = "#4267b2";
 export const ColorActionTertiary = "#999999";
 export const ColorFontBase = "#000000";
-export const ColorFontPrimary = "#ea4335";
-export const ColorFontSecondary = "#34a853";
+export const ColorFontPrimary = "#3b5998";
+export const ColorFontSecondary = "#4267b2";
 export const ColorFontTertiary = "#cccccc";
 export const ButtonBorderRadius = "4px";
 export const ButtonTextSize = "1rem";
