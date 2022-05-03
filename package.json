@@ -18,7 +18,8 @@
   },
   "np": {
     "yarn": false,
-    "tests": false
+    "tests": false,
+    "contents": "build"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
