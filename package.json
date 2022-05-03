@@ -16,5 +16,8 @@
   "np": {
     "yarn": false,
     "contents": "build"
+  },
+  "dependencies": {
+    "np": "^7.6.1"
   }
 }
