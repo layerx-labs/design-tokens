@@ -22,7 +22,6 @@
     "contents": "build"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
-    "access": "restricted"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
