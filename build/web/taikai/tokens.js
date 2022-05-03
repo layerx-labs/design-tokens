@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 02 May 2022 21:57:01 GMT
+ * Generated on Tue, 03 May 2022 12:52:45 GMT
  */
 
 export const ColorBrandPrimary = "#ea4335";
