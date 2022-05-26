@@ -2,7 +2,7 @@
   "name": "@taikai/design-tokens",
   "description": "Source of truth of visual design attributes between multiple TAIKAI projects",
   "author": "taikai",
-  "version": "0.0.1-beta.15",
+  "version": "0.0.1-beta.16",
   "repository": {
     "type": "git",
     "url": "https://github.com/taikai/design-tokens.git"
