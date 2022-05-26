@@ -1,10 +1,10 @@
 {
-  "name": "@taikai/taikai-design-tokens",
+  "name": "@taikai/design-tokens",
   "author": "taikai",
   "version": "0.0.1-beta.13",
   "repository": {
     "type": "git",
-    "url": "https://github.com/taikai/taikai-design-tokens.git"
+    "url": "https://github.com/taikai/design-tokens.git"
   },
   "scripts": {
     "build": "node ./config.js",
@@ -21,7 +21,8 @@
     "tests": false
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "access": "restricted",
+    "registry": "https://registry.npmjs.org"
   },
   "files": [
     "build"
