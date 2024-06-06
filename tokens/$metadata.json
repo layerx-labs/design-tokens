@@ -2,6 +2,7 @@
   "tokenSetOrder": [
     "Base",
     "Global",
-    "Theme/Light"
+    "Theme/Light",
+    "Theme/Dark"
   ]
 }
