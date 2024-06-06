@@ -2,14 +2,13 @@
   {
     "id": "04336122c1e58e7a62397a808e0258b2a6d54bf7",
     "name": "Light",
-    "$figmaStyleReferences": {},
+    "group": "Themes",
     "selectedTokenSets": {
       "Base": "source",
       "Global": "source",
       "Theme/Light": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:464:7991",
-    "$figmaModeId": "464:0",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "color.surface.l0": "89e6548f5eace07ff1184597a5f8ead1c95407aa",
       "color.surface.l1": "08ab10485a01c50a1bacfa4adc67d7846c83ec61",
@@ -72,34 +71,32 @@
       "color.innerLayer.default": "78d05b2b194e4b1ca17e044522cb3357b3a8b33f",
       "color.innerLayer.hover": "3a0530d2f65fe8e4b406ea2fae418a7ad8ae77eb"
     },
-    "group": "Themes"
+    "$figmaCollectionId": "VariableCollectionId:464:7991",
+    "$figmaModeId": "464:0"
   },
   {
     "id": "205ad38b6c7b88d72d64053cf93ed7c09aa7e32f",
     "name": "Dark",
-    "$figmaStyleReferences": {},
+    "group": "Themes",
     "selectedTokenSets": {
       "Base": "source",
       "Global": "source",
       "Theme/Dark": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:464:7991",
-    "$figmaModeId": "464:1",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {},
-    "group": "Themes"
+    "$figmaCollectionId": "VariableCollectionId:464:7991",
+    "$figmaModeId": "464:1"
   },
   {
     "id": "c65a70b445ae3380a34b4fbf8ebb808319074e43",
     "name": "Bepro",
-    "$figmaStyleReferences": {},
+    "group": "Brand",
     "selectedTokenSets": {
       "Base": "enabled",
-      "Global": "enabled",
-      "Theme/Dark": "disabled"
+      "Global": "enabled"
     },
-    "group": "Brand",
-    "$figmaCollectionId": "VariableCollectionId:464:8053",
-    "$figmaModeId": "464:2",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "sizing.0": "de8c025cb78df6d0d2c5d27b3138679768f06d53",
       "sizing.100": "d2ba619daa2945a372e5323ddb3d8aa64b2235ff",
@@ -417,20 +414,21 @@
       "color.pink.800": "80de4ea45a9d47686a200a946f99c9991c208fa7",
       "color.pink.900": "0f6b6c9920cec11d2c000f77738828667d1197b5",
       "color.pink.950": "362da0c23440fd2ddb2a9905628ba3add199446f"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:464:8053",
+    "$figmaModeId": "464:2"
   },
   {
     "id": "a4780f425e4ca7b8c245359198bed7f73a48c2ce",
     "name": "TAIKAI",
-    "$figmaStyleReferences": {},
+    "group": "Brand",
     "selectedTokenSets": {
       "Base": "source",
-      "Global": "source",
-      "Theme/Dark": "disabled"
+      "Global": "source"
     },
-    "group": "Brand",
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
     "$figmaCollectionId": "VariableCollectionId:464:8053",
-    "$figmaModeId": "464:3",
-    "$figmaVariableReferences": {}
+    "$figmaModeId": "464:3"
   }
 ]
