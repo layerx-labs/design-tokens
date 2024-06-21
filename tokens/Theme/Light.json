@@ -222,6 +222,19 @@
         }
       },
       "tag": {
+        "default": {
+          "value": "{color.neutral.0}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.08",
+                "space": "lch"
+              }
+            }
+          }
+        },
         "hover": {
           "value": "{color.neutral.0}",
           "type": "color",

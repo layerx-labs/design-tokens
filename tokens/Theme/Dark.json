@@ -110,7 +110,7 @@
         "type": "color"
       },
       "secondary": {
-        "value": "{color.neutral.0}",
+        "value": "{color.text.primary}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -123,26 +123,13 @@
         }
       },
       "tertiary": {
-        "value": "{color.neutral.0}",
+        "value": "{color.text.primary}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "alpha",
               "value": "0.30",
-              "space": "lch"
-            }
-          }
-        }
-      },
-      "disabled": {
-        "value": "{color.neutral.0}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.27",
               "space": "lch"
             }
           }
@@ -171,7 +158,7 @@
         "type": "color"
       },
       "secondary": {
-        "value": "{color.neutral.0}",
+        "value": "{color.icon.primary}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -184,26 +171,13 @@
         }
       },
       "tertiary": {
-        "value": "{color.neutral.0}",
+        "value": "{color.icon.primary}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "alpha",
               "value": "0.30",
-              "space": "lch"
-            }
-          }
-        }
-      },
-      "disabled": {
-        "value": "{color.neutral.0}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.27",
               "space": "lch"
             }
           }
@@ -279,6 +253,19 @@
         }
       },
       "tag": {
+        "default": {
+          "value": "{color.neutral.0}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.08",
+                "space": "lch"
+              }
+            }
+          }
+        },
         "hover": {
           "value": "{color.neutral.0}",
           "type": "color",
