@@ -487,7 +487,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{color.status.attention.primary}",
+          "value": "{color.yellow.500}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
