@@ -37,13 +37,13 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color.neutral.0}",
+        "value": "{color.neutral.950}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "alpha",
-              "value": "0.50",
+              "value": "0.05",
               "space": "lch"
             }
           }
