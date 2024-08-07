@@ -10,7 +10,7 @@
         "type": "color"
       },
       "l2": {
-        "value": "{color.gray.100}",
+        "value": "{color.gray.200}",
         "type": "color"
       },
       "emphasis": {

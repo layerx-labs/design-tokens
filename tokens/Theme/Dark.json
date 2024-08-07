@@ -100,7 +100,7 @@
         }
       },
       "focus": {
-        "value": "{color.brand.400}",
+        "value": "{color.brand.500}",
         "type": "color"
       }
     },
@@ -136,7 +136,7 @@
         }
       },
       "link": {
-        "value": "{color.brand.400}",
+        "value": "{color.brand.500}",
         "type": "color"
       },
       "white": {
@@ -184,7 +184,7 @@
         }
       },
       "link": {
-        "value": "{color.brand.400}",
+        "value": "{color.brand.500}",
         "type": "color"
       },
       "white": {
@@ -203,25 +203,12 @@
     "cta": {
       "primary": {
         "default": {
-          "value": "{color.brand.400}",
-          "type": "color"
-        },
-        "hover": {
           "value": "{color.brand.500}",
           "type": "color"
         },
-        "disabled": {
-          "value": "{color.cta.primary.default}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.12",
-                "space": "lch"
-              }
-            }
-          }
+        "hover": {
+          "value": "{color.brand.600}",
+          "type": "color"
         }
       },
       "secondary": {
@@ -303,7 +290,7 @@
       },
       "brand": {
         "primary": {
-          "value": "{color.brand.400}",
+          "value": "{color.brand.500}",
           "type": "color"
         },
         "secondary": {
@@ -322,7 +309,7 @@
       },
       "red": {
         "primary": {
-          "value": "{color.red.400}",
+          "value": "{color.red.500}",
           "type": "color"
         },
         "secondary": {

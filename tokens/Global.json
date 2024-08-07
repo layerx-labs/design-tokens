@@ -1522,10 +1522,10 @@
     "sm": {
       "value": {
         "x": "0",
-        "y": "1",
-        "blur": "2",
+        "y": "2",
+        "blur": "12",
         "spread": "0",
-        "color": "rgba(10,13,20,0.03)",
+        "color": "rgba(0,0,0,0.08)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1533,10 +1533,10 @@
     "md": {
       "value": {
         "x": "0",
-        "y": "16",
+        "y": "12",
         "blur": "32",
-        "spread": "-12",
-        "color": "rgba(15,19,28,0.1)",
+        "spread": "-6",
+        "color": "rgba(0,0,0,0.14)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
