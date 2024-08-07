@@ -329,7 +329,7 @@
       },
       "yellow": {
         "primary": {
-          "value": "{color.yellow.500}",
+          "value": "{color.yellow.700}",
           "type": "color"
         },
         "secondary": {
@@ -348,7 +348,7 @@
       },
       "green": {
         "primary": {
-          "value": "{color.green.500}",
+          "value": "{color.green.700}",
           "type": "color"
         },
         "secondary": {
