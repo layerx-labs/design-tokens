@@ -445,7 +445,7 @@
       },
       "success": {
         "primary": {
-          "value": "{color.green.500}",
+          "value": "{color.green.700}",
           "type": "color"
         },
         "secondary": {
@@ -464,7 +464,7 @@
       },
       "information": {
         "primary": {
-          "value": "{color.blue.500}",
+          "value": "{color.blue.600}",
           "type": "color"
         },
         "secondary": {
@@ -483,7 +483,7 @@
       },
       "attention": {
         "primary": {
-          "value": "{color.yellow.500}",
+          "value": "{color.yellow.700}",
           "type": "color"
         },
         "secondary": {
@@ -502,7 +502,7 @@
       },
       "warning": {
         "primary": {
-          "value": "{color.orange.500}",
+          "value": "{color.orange.600}",
           "type": "color"
         },
         "secondary": {
@@ -521,7 +521,7 @@
       },
       "danger": {
         "primary": {
-          "value": "{color.red.500}",
+          "value": "{color.red.600}",
           "type": "color"
         },
         "secondary": {
