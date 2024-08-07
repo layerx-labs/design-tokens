@@ -253,7 +253,7 @@
     "accent": {
       "gray": {
         "primary": {
-          "value": "{color.gray.400}",
+          "value": "{color.gray.600}",
           "type": "color"
         },
         "secondary": {
@@ -291,7 +291,7 @@
       },
       "red": {
         "primary": {
-          "value": "{color.red.500}",
+          "value": "{color.red.600}",
           "type": "color"
         },
         "secondary": {
@@ -310,7 +310,7 @@
       },
       "orange": {
         "primary": {
-          "value": "{color.orange.500}",
+          "value": "{color.orange.600}",
           "type": "color"
         },
         "secondary": {
@@ -367,7 +367,7 @@
       },
       "blue": {
         "primary": {
-          "value": "{color.blue.500}",
+          "value": "{color.blue.600}",
           "type": "color"
         },
         "secondary": {
