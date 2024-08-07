@@ -1160,7 +1160,7 @@
         "type": "color"
       }
     },
-    "cta": {
+    "button": {
       "primary": {
         "default": {
           "value": "{color.brand.500}",
