@@ -1060,7 +1060,7 @@
         }
       },
       "focus": {
-        "value": "{color.brand.400}",
+        "value": "{color.brand.500}",
         "type": "color"
       }
     },
@@ -1096,7 +1096,7 @@
         }
       },
       "link": {
-        "value": "{color.brand.400}",
+        "value": "{color.brand.500}",
         "type": "color"
       },
       "white": {
@@ -1144,7 +1144,7 @@
         }
       },
       "link": {
-        "value": "{color.brand.400}",
+        "value": "{color.brand.500}",
         "type": "color"
       },
       "white": {
@@ -1163,11 +1163,11 @@
     "cta": {
       "primary": {
         "default": {
-          "value": "{color.brand.400}",
+          "value": "{color.brand.500}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.brand.500}",
+          "value": "{color.brand.600}",
           "type": "color"
         }
       },
