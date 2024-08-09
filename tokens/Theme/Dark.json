@@ -309,7 +309,7 @@
       },
       "red": {
         "primary": {
-          "value": "{color.red.500}",
+          "value": "{color.red.600}",
           "type": "color"
         },
         "secondary": {
@@ -539,7 +539,7 @@
       },
       "danger": {
         "primary": {
-          "value": "{color.red.500}",
+          "value": "{color.red.600}",
           "type": "color"
         },
         "secondary": {
