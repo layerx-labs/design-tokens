@@ -242,6 +242,10 @@
       "$type": "fontFamilies",
       "$value": "{fontFamilty.Inter}"
     },
+    "headings": {
+      "$type": "fontFamilies",
+      "$value": "{fontFamilty.Inter-Display}"
+    },
     "code": {
       "$type": "fontFamilies",
       "$value": "{fontFamilty.GeistMono}"
@@ -298,12 +302,12 @@
       "h1": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{fontFamily.primary}",
-          "fontWeight": "{fontWeight.semibold}",
-          "lineHeight": "{lineHeight.none}",
+          "fontFamily": "{fontFamily.headings}",
+          "fontWeight": "{fontWeight.medium}",
+          "lineHeight": "{lineHeight.64}",
           "fontSizes": "{fontSizes.72}",
-          "fontSize": "{fontSize.8xl}",
-          "letterSpacing": "{letterSpacing.normal}",
+          "fontSize": "{fontSize.6xl}",
+          "letterSpacing": "{letterSpacing.tighter}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}",
           "paragraphSpacing": "{paragraphSpacing.none}"
@@ -783,6 +787,22 @@
       }
     }
   },
+  "heading": {
+    "h1-copy": {
+      "$type": "typography",
+      "$value": {
+        "fontWeight": "{fontWeight.medium}",
+        "lineHeight": "{lineHeight.64}",
+        "fontSizes": "{fontSizes.72}",
+        "fontSize": "{fontSize.6xl}",
+        "letterSpacing": "{letterSpacing.tighter}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}",
+        "paragraphSpacing": "{paragraphSpacing.none}",
+        "fontFamily": "{fontFamily.headings}"
+      }
+    }
+  },
   "fontSize": {
     "2xs": {
       "$type": "fontSizes",
@@ -848,15 +868,15 @@
   "letterSpacing": {
     "tightest": {
       "$type": "letterSpacing",
-      "$value": "{letterSpacing.-2_5}"
+      "$value": "{letterSpacing.-1_5}"
     },
     "tighter": {
       "$type": "letterSpacing",
-      "$value": "{letterSpacing.-2}"
+      "$value": "{letterSpacing.-1}"
     },
     "tight": {
       "$type": "letterSpacing",
-      "$value": "{letterSpacing.-1}"
+      "$value": "{letterSpacing.-0_5}"
     },
     "normal": {
       "$type": "letterSpacing",
@@ -878,23 +898,23 @@
   "lineHeight": {
     "none": {
       "$type": "lineHeights",
-      "$value": "{lineHeight.100}"
+      "$value": "{lineHeight.100p}"
     },
     "tight": {
       "$type": "lineHeights",
-      "$value": "{lineHeight.120}"
+      "$value": "{lineHeight.120p}"
     },
     "snug": {
       "$type": "lineHeights",
-      "$value": "{lineHeight.140}"
+      "$value": "{lineHeight.140p}"
     },
     "relaxed": {
       "$type": "lineHeights",
-      "$value": "{lineHeight.180}"
+      "$value": "{lineHeight.180p}"
     },
     "loose": {
       "$type": "lineHeights",
-      "$value": "{lineHeight.200}"
+      "$value": "{lineHeight.200p}"
     }
   },
   "textCase": {
