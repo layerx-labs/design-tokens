@@ -2,24 +2,22 @@
   "color": {
     "surface": {
       "l0": {
-        "value": "{color.neutral.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.neutral.0}"
       },
       "l1": {
-        "value": "{color.gray.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.gray.50}"
       },
       "l2": {
-        "value": "{color.gray.200}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.gray.200}"
       },
       "emphasis": {
-        "value": "{color.gray.900}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.gray.900}"
       },
       "scrim": {
-        "value": "{color.neutral.0}",
-        "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -28,17 +26,17 @@
               "space": "lch"
             }
           }
-        }
+        },
+        "$type": "color",
+        "$value": "{color.neutral.0}"
       }
     },
     "innerLayer": {
       "default": {
-        "value": "{color.neutral.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.neutral.0}"
       },
       "hover": {
-        "value": "{color.neutral.950}",
-        "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -47,13 +45,13 @@
               "space": "lch"
             }
           }
-        }
+        },
+        "$type": "color",
+        "$value": "{color.neutral.950}"
       }
     },
     "border": {
       "primary": {
-        "value": "{color.gray.950}",
-        "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -62,11 +60,11 @@
               "space": "lch"
             }
           }
-        }
+        },
+        "$type": "color",
+        "$value": "{color.gray.950}"
       },
       "secondary": {
-        "value": "{color.gray.950}",
-        "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -75,11 +73,11 @@
               "space": "lch"
             }
           }
-        }
+        },
+        "$type": "color",
+        "$value": "{color.gray.950}"
       },
       "tertiary": {
-        "value": "{color.gray.950}",
-        "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -88,21 +86,21 @@
               "space": "lch"
             }
           }
-        }
+        },
+        "$type": "color",
+        "$value": "{color.gray.950}"
       },
       "focus": {
-        "value": "{color.brand.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.brand.500}"
       }
     },
     "text": {
       "primary": {
-        "value": "{color.gray.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.gray.950}"
       },
       "secondary": {
-        "value": "{color.text.primary}",
-        "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -111,11 +109,11 @@
               "space": "lch"
             }
           }
-        }
+        },
+        "$type": "color",
+        "$value": "{color.text.primary}"
       },
       "tertiary": {
-        "value": "{color.text.primary}",
-        "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -124,33 +122,33 @@
               "space": "lch"
             }
           }
-        }
+        },
+        "$type": "color",
+        "$value": "{color.text.primary}"
       },
       "link": {
-        "value": "{color.brand.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.brand.500}"
       },
       "white": {
-        "value": "{color.neutral.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.neutral.0}"
       },
       "black": {
-        "value": "{color.neutral.1000}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.neutral.1000}"
       },
       "inverse": {
-        "value": "{color.neutral.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.neutral.0}"
       }
     },
     "icon": {
       "primary": {
-        "value": "{color.gray.950}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.gray.950}"
       },
       "secondary": {
-        "value": "{color.icon.primary}",
-        "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -159,11 +157,11 @@
               "space": "lch"
             }
           }
-        }
+        },
+        "$type": "color",
+        "$value": "{color.icon.primary}"
       },
       "tertiary": {
-        "value": "{color.icon.primary}",
-        "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -172,44 +170,44 @@
               "space": "lch"
             }
           }
-        }
+        },
+        "$type": "color",
+        "$value": "{color.icon.primary}"
       },
       "link": {
-        "value": "{color.brand.500}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.brand.500}"
       },
       "white": {
-        "value": "{color.neutral.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.neutral.0}"
       },
       "black": {
-        "value": "{color.neutral.1000}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.neutral.1000}"
       },
       "inverse": {
-        "value": "{color.neutral.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{color.neutral.0}"
       }
     },
     "button": {
       "primary": {
         "default": {
-          "value": "{color.brand.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.brand.500}"
         },
         "hover": {
-          "value": "{color.brand.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.brand.600}"
         }
       },
       "secondary": {
         "default": {
-          "value": "{color.neutral.0}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.neutral.0}"
         },
         "hover": {
-          "value": "{color.gray.950}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -218,13 +216,13 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.gray.950}"
         }
       },
       "tag": {
         "default": {
-          "value": "{color.neutral.0}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -233,11 +231,11 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.neutral.0}"
         },
         "hover": {
-          "value": "{color.neutral.0}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -246,19 +244,19 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.neutral.0}"
         }
       }
     },
     "accent": {
       "gray": {
         "primary": {
-          "value": "{color.gray.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.gray.600}"
         },
         "secondary": {
-          "value": "{color.accent.gray.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -267,17 +265,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.accent.gray.primary}"
         }
       },
       "brand": {
         "primary": {
-          "value": "{color.brand.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.brand.500}"
         },
         "secondary": {
-          "value": "{color.accent.brand.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -286,17 +284,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.accent.brand.primary}"
         }
       },
       "red": {
         "primary": {
-          "value": "{color.red.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.red.600}"
         },
         "secondary": {
-          "value": "{color.accent.red.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -305,17 +303,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.accent.red.primary}"
         }
       },
       "orange": {
         "primary": {
-          "value": "{color.orange.600}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.orange.600}"
         },
         "secondary": {
-          "value": "{color.accent.orange.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -324,17 +322,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.accent.orange.primary}"
         }
       },
       "yellow": {
         "primary": {
-          "value": "{color.yellow.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.yellow.700}"
         },
         "secondary": {
-          "value": "{color.accent.yellow.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -343,17 +341,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.accent.yellow.primary}"
         }
       },
       "green": {
         "primary": {
-          "value": "{color.green.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.green.700}"
         },
         "secondary": {
-          "value": "{color.accent.green.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -362,17 +360,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.accent.green.primary}"
         }
       },
       "blue": {
         "primary": {
-          "value": "{color.blue.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.blue.700}"
         },
         "secondary": {
-          "value": "{color.accent.blue.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -381,17 +379,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.accent.blue.primary}"
         }
       },
       "purple": {
         "primary": {
-          "value": "{color.purple.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.purple.500}"
         },
         "secondary": {
-          "value": "{color.accent.purple.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -400,17 +398,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.accent.purple.primary}"
         }
       },
       "pink": {
         "primary": {
-          "value": "{color.pink.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.pink.500}"
         },
         "secondary": {
-          "value": "{color.accent.pink.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -419,19 +417,19 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.accent.pink.primary}"
         }
       }
     },
     "status": {
       "none": {
         "primary": {
-          "value": "{color.gray.500}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.gray.500}"
         },
         "secondary": {
-          "value": "{color.status.none.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -440,17 +438,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.status.none.primary}"
         }
       },
       "success": {
         "primary": {
-          "value": "{color.green.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.green.700}"
         },
         "secondary": {
-          "value": "{color.status.success.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -459,17 +457,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.status.success.primary}"
         }
       },
       "information": {
         "primary": {
-          "value": "{color.blue.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.blue.700}"
         },
         "secondary": {
-          "value": "{color.status.information.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -478,17 +476,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.status.information.primary}"
         }
       },
       "attention": {
         "primary": {
-          "value": "{color.yellow.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.yellow.700}"
         },
         "secondary": {
-          "value": "{color.yellow.500}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -497,17 +495,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.yellow.500}"
         }
       },
       "warning": {
         "primary": {
-          "value": "{color.orange.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.orange.700}"
         },
         "secondary": {
-          "value": "{color.status.warning.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -516,17 +514,17 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.status.warning.primary}"
         }
       },
       "danger": {
         "primary": {
-          "value": "{color.red.700}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{color.red.700}"
         },
         "secondary": {
-          "value": "{color.status.danger.primary}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -535,7 +533,9 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{color.status.danger.primary}"
         }
       }
     }
