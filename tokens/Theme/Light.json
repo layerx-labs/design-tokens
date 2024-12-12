@@ -95,11 +95,11 @@
       }
     },
     "primary": {
-      "darker": {
+      "stronger": {
         "value": "{color.primary.950}",
         "type": "color"
       },
-      "dark": {
+      "strong": {
         "value": "{color.primary.800}",
         "type": "color"
       },
@@ -117,7 +117,7 @@
       }
     },
     "neutral": {
-      "darker": {
+      "stronger": {
         "value": "{color.neutral.950}",
         "type": "color"
       },
@@ -139,7 +139,7 @@
       }
     },
     "red": {
-      "darker": {
+      "stronger": {
         "value": "{color.red.950}",
         "type": "color"
       },
@@ -161,7 +161,7 @@
       }
     },
     "orange": {
-      "darker": {
+      "stronger": {
         "value": "{color.orange.950}",
         "type": "color"
       },
@@ -183,7 +183,7 @@
       }
     },
     "yellow": {
-      "darker": {
+      "stronger": {
         "value": "{color.yellow.950}",
         "type": "color"
       },
@@ -205,7 +205,7 @@
       }
     },
     "green": {
-      "darker": {
+      "stronger": {
         "value": "{color.green.950}",
         "type": "color"
       },
@@ -227,7 +227,7 @@
       }
     },
     "emerald": {
-      "darker": {
+      "stronger": {
         "value": "{color.emerald.950}",
         "type": "color"
       },
@@ -249,7 +249,7 @@
       }
     },
     "teal": {
-      "darker": {
+      "stronger": {
         "value": "{color.teal.950}",
         "type": "color"
       },
@@ -271,7 +271,7 @@
       }
     },
     "sky": {
-      "darker": {
+      "stronger": {
         "value": "{color.sky.950}",
         "type": "color"
       },
@@ -293,7 +293,7 @@
       }
     },
     "blue": {
-      "darker": {
+      "stronger": {
         "value": "{color.blue.950}",
         "type": "color"
       },
@@ -315,7 +315,7 @@
       }
     },
     "purple": {
-      "darker": {
+      "stronger": {
         "value": "{color.purple.950}",
         "type": "color"
       },
@@ -337,7 +337,7 @@
       }
     },
     "magenta": {
-      "darker": {
+      "stronger": {
         "value": "{color.magenta.950}",
         "type": "color"
       },
@@ -359,7 +359,7 @@
       }
     },
     "rose": {
-      "darker": {
+      "stronger": {
         "value": "{color.rose.950}",
         "type": "color"
       },
